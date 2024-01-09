@@ -35,8 +35,8 @@ function randomImg() {
   shuffleArray(imageArray);
   shuffleArray(imageArray);
   for (let i = 1; i <= 10; i++) {
-    // var audio = document.getElementById('myAudio');
-    // audio.play();
+    var audio = document.getElementById('myAudio');
+    audio.play();
     var img_export = 'item' + i.toString();
     var imageElement = document.getElementById(img_export);
     imageElement.src = imageArray[i - 1];
@@ -54,7 +54,17 @@ function spinImage() {
 
   setTimeout(function () {
     slide.classList.remove('slide-animation');
-  }, 3000);
+    slide.classList.add('slide-animation2');
+  }, 4000);
+
+  setTimeout(function () {
+    slide.classList.remove('slide-animation2');
+    slide.classList.add('slide-animation3');
+  }, 5000);
+
+  setTimeout(function () {
+    slide.classList.remove('slide-animation3');
+  }, 6000);
 
   random_check = false;
 }
