@@ -18,6 +18,7 @@
 
     <div class="container">
       <div class="minigame">
+        
         <div class="slider">
           <div class="slide-track">
             <!-- IMAGE -->
@@ -62,15 +63,17 @@
               <img id="item10" src="img/map10.webp" />
             </div>
           </div>
-          <div class="arrow" style="box-shadow: 0px 0px 20px 2px black;"></div>
+                   
+          <div class="arrow" style="box-shadow: 0px 0px 20px 2px black;"></div>  
         </div>
-
-        <button onclick="spinImage()">SPIN</button>
+        <h1 id="result" style="color: white; margin-bottom: -2rem; margin-top: -3rem;"> Result </h1>
+        <button class="clicked-button" onclick="spinImage()">SPIN</button>
         <audio id="myAudio">
           <source src="case.mp3" type="audio/mpeg" />
         </audio>
       </div>
     </div>
+    
     <h1 style="text-align: center; font-weight: bold; font-size: 15px;">
       &#169 Copyright by DzL
     </h1>

@@ -2,6 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Quicksand:wght@500&display=swap');
 
+body {
+  user-select: none;
+  width: 200vh;
+  height: 100%;
+  background-color: #15181d;
+  font-family: sans-serif;
+}
+
 .container {
   text-align: center;
   margin-top: 10px;
@@ -51,13 +59,6 @@ button:hover {
   background-color: #232832;
   border-radius: 20px;
   box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1);
-}
-
-body {
-  width: 200vh;
-  height: 100%;
-  background-color: #15181d;
-  font-family: sans-serif;
 }
 
 .slider {
@@ -149,7 +150,7 @@ img:hover {
   width: 1px;
   background-color: rgb(228, 251, 128);
   transform: translateX(-50%);
-  height: 240px;
+  height: 150px;
 }
 
 .blur {
@@ -183,4 +184,8 @@ img:hover {
   100% {
     transform: scale(1);
   }
+}
+
+.hidden {
+  opacity: 0;
 }
