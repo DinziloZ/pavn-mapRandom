@@ -101,6 +101,7 @@ img {
   background-color: #34475c;
   border-radius: 10px;
   transition: transform 1s;
+  border: 3px solid white;
 }
 
 img:hover {
