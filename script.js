@@ -1,6 +1,6 @@
 var imageArray = [
   ['img/map1.webp', 'Ichiban'],
-  ['img/map2.webp', 'Train Station'],
+  ['img/map2.webp', 'Final Destination'],
   ['img/map3.webp', 'Beast Football'],
   ['img/map4.webp', 'Trebuchet'],
   ['img/map5.webp', 'Buzz Ball'],
